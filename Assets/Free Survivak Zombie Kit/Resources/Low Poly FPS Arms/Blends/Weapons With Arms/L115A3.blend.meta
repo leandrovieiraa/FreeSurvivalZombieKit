@@ -1,0 +1,187 @@
+fileFormatVersion: 2
+guid: 3a63275a5a9dad0419265586844e4984
+timeCreated: 1530594501
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Annulaire1_L
+    100002: Annulaire1_R
+    100004: Annulaire2_L
+    100006: Annulaire2_R
+    100008: Annulaire3_L
+    100010: Annulaire3_R
+    100012: ArmatureBras
+    100014: Auriculaire1_L
+    100016: Auriculaire1_R
+    100018: Auriculaire2_L
+    100020: Auriculaire2_R
+    100022: Auriculaire3_L
+    100024: Auriculaire3_R
+    100026: AvantBras_L
+    100028: AvantBras_R
+    100030: Balle
+    100032: Base
+    100034: BaseL115A3
+    100036: Bras
+    100038: Bras_L
+    100040: Bras_R
+    100042: Chargeur
+    100044: Gachette
+    100046: Index1_L
+    100048: Index1_R
+    100050: Index2_L
+    100052: Index2_R
+    100054: Index3_L
+    100056: Index3_R
+    100058: //RootNode
+    100060: L115A3
+    100062: Main_L
+    100064: Main_R
+    100066: Majeur1_L
+    100068: Majeur1_R
+    100070: Majeur2_L
+    100072: Majeur2_R
+    100074: Majeur3_L
+    100076: Majeur3_R
+    100078: Pouce1_L
+    100080: Pouce1_R
+    100082: Pouce2_L
+    100084: Pouce2_R
+    100086: Rechargeur
+    100088: Rechargeur_2
+    400000: Annulaire1_L
+    400002: Annulaire1_R
+    400004: Annulaire2_L
+    400006: Annulaire2_R
+    400008: Annulaire3_L
+    400010: Annulaire3_R
+    400012: ArmatureBras
+    400014: Auriculaire1_L
+    400016: Auriculaire1_R
+    400018: Auriculaire2_L
+    400020: Auriculaire2_R
+    400022: Auriculaire3_L
+    400024: Auriculaire3_R
+    400026: AvantBras_L
+    400028: AvantBras_R
+    400030: Balle
+    400032: Base
+    400034: BaseL115A3
+    400036: Bras
+    400038: Bras_L
+    400040: Bras_R
+    400042: Chargeur
+    400044: Gachette
+    400046: Index1_L
+    400048: Index1_R
+    400050: Index2_L
+    400052: Index2_R
+    400054: Index3_L
+    400056: Index3_R
+    400058: //RootNode
+    400060: L115A3
+    400062: Main_L
+    400064: Main_R
+    400066: Majeur1_L
+    400068: Majeur1_R
+    400070: Majeur2_L
+    400072: Majeur2_R
+    400074: Majeur3_L
+    400076: Majeur3_R
+    400078: Pouce1_L
+    400080: Pouce1_R
+    400082: Pouce2_L
+    400084: Pouce2_R
+    400086: Rechargeur
+    400088: Rechargeur_2
+    2100000: L115A3Texture
+    2100002: BulletsTexture
+    2100004: ArmsFlesh
+    2100006: ArmsJacket
+    4300000: L115A3
+    4300002: Bras
+    7400000: Default Take
+    9500000: //RootNode
+    13700000: Bras
+    13700002: L115A3
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
