@@ -1,0 +1,186 @@
+fileFormatVersion: 2
+guid: 6eaaf9bf42c2cda4f9f59a50724e46f2
+timeCreated: 1531546150
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Head
+    100002: HeadTop_End
+    100004: Hips
+    100006: LeftArm
+    100008: LeftFoot
+    100010: LeftForeArm
+    100012: LeftHand
+    100014: LeftHandIndex1
+    100016: LeftHandIndex2
+    100018: LeftHandIndex3
+    100020: LeftHandIndex4
+    100022: LeftHandThumb1
+    100024: LeftHandThumb2
+    100026: LeftHandThumb3
+    100028: LeftHandThumb4
+    100030: LeftLeg
+    100032: LeftShoulder
+    100034: LeftToe_End
+    100036: LeftToeBase
+    100038: LeftUpLeg
+    100040: Neck
+    100042: RightArm
+    100044: RightFoot
+    100046: RightForeArm
+    100048: RightHand
+    100050: RightHandIndex1
+    100052: RightHandIndex2
+    100054: RightHandIndex3
+    100056: RightHandIndex4
+    100058: RightHandThumb1
+    100060: RightHandThumb2
+    100062: RightHandThumb3
+    100064: RightHandThumb4
+    100066: RightLeg
+    100068: RightShoulder
+    100070: RightToe_End
+    100072: RightToeBase
+    100074: RightUpLeg
+    100076: Spine
+    100078: Spine1
+    100080: Spine2
+    100082: Zombie
+    100084: Zombie_Cylinder
+    100086: //RootNode
+    400000: Head
+    400002: HeadTop_End
+    400004: Hips
+    400006: LeftArm
+    400008: LeftFoot
+    400010: LeftForeArm
+    400012: LeftHand
+    400014: LeftHandIndex1
+    400016: LeftHandIndex2
+    400018: LeftHandIndex3
+    400020: LeftHandIndex4
+    400022: LeftHandThumb1
+    400024: LeftHandThumb2
+    400026: LeftHandThumb3
+    400028: LeftHandThumb4
+    400030: LeftLeg
+    400032: LeftShoulder
+    400034: LeftToe_End
+    400036: LeftToeBase
+    400038: LeftUpLeg
+    400040: Neck
+    400042: RightArm
+    400044: RightFoot
+    400046: RightForeArm
+    400048: RightHand
+    400050: RightHandIndex1
+    400052: RightHandIndex2
+    400054: RightHandIndex3
+    400056: RightHandIndex4
+    400058: RightHandThumb1
+    400060: RightHandThumb2
+    400062: RightHandThumb3
+    400064: RightHandThumb4
+    400066: RightLeg
+    400068: RightShoulder
+    400070: RightToe_End
+    400072: RightToeBase
+    400074: RightUpLeg
+    400076: Spine
+    400078: Spine1
+    400080: Spine2
+    400082: Zombie
+    400084: Zombie_Cylinder
+    400086: //RootNode
+    2100000: Texture
+    4300000: Zombie_Cylinder
+    7400000: Default Take
+    7400002: ZombieAttack
+    7400004: ZombieBite
+    7400006: ZombieCrawl
+    7400008: ZombieIdle
+    7400010: ZombieRun
+    7400012: ZombieWalk
+    9500000: //RootNode
+    13700000: Zombie_Cylinder
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.3
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

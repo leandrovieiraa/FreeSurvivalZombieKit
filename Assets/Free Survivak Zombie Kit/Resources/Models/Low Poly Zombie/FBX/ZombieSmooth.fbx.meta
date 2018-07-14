@@ -1,0 +1,198 @@
+fileFormatVersion: 2
+guid: cd6f7600511b38b45acdb7af35d38243
+timeCreated: 1531546152
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Head
+    100002: HeadTop_End
+    100004: HeadTop_End_end
+    100006: Hips
+    100008: LeftArm
+    100010: LeftFoot
+    100012: LeftForeArm
+    100014: LeftHand
+    100016: LeftHandIndex1
+    100018: LeftHandIndex2
+    100020: LeftHandIndex3
+    100022: LeftHandIndex4
+    100024: LeftHandIndex4_end
+    100026: LeftHandThumb1
+    100028: LeftHandThumb2
+    100030: LeftHandThumb3
+    100032: LeftHandThumb4
+    100034: LeftHandThumb4_end
+    100036: LeftLeg
+    100038: LeftShoulder
+    100040: LeftToe_End
+    100042: LeftToe_End_end
+    100044: LeftToeBase
+    100046: LeftUpLeg
+    100048: Neck
+    100050: RightArm
+    100052: RightFoot
+    100054: RightForeArm
+    100056: RightHand
+    100058: RightHandIndex1
+    100060: RightHandIndex2
+    100062: RightHandIndex3
+    100064: RightHandIndex4
+    100066: RightHandIndex4_end
+    100068: RightHandThumb1
+    100070: RightHandThumb2
+    100072: RightHandThumb3
+    100074: RightHandThumb4
+    100076: RightHandThumb4_end
+    100078: RightLeg
+    100080: RightShoulder
+    100082: RightToe_End
+    100084: RightToe_End_end
+    100086: RightToeBase
+    100088: RightUpLeg
+    100090: Spine
+    100092: Spine1
+    100094: Spine2
+    100096: Zombie
+    100098: Zombie_Cylinder
+    100100: //RootNode
+    400000: Head
+    400002: HeadTop_End
+    400004: HeadTop_End_end
+    400006: Hips
+    400008: LeftArm
+    400010: LeftFoot
+    400012: LeftForeArm
+    400014: LeftHand
+    400016: LeftHandIndex1
+    400018: LeftHandIndex2
+    400020: LeftHandIndex3
+    400022: LeftHandIndex4
+    400024: LeftHandIndex4_end
+    400026: LeftHandThumb1
+    400028: LeftHandThumb2
+    400030: LeftHandThumb3
+    400032: LeftHandThumb4
+    400034: LeftHandThumb4_end
+    400036: LeftLeg
+    400038: LeftShoulder
+    400040: LeftToe_End
+    400042: LeftToe_End_end
+    400044: LeftToeBase
+    400046: LeftUpLeg
+    400048: Neck
+    400050: RightArm
+    400052: RightFoot
+    400054: RightForeArm
+    400056: RightHand
+    400058: RightHandIndex1
+    400060: RightHandIndex2
+    400062: RightHandIndex3
+    400064: RightHandIndex4
+    400066: RightHandIndex4_end
+    400068: RightHandThumb1
+    400070: RightHandThumb2
+    400072: RightHandThumb3
+    400074: RightHandThumb4
+    400076: RightHandThumb4_end
+    400078: RightLeg
+    400080: RightShoulder
+    400082: RightToe_End
+    400084: RightToe_End_end
+    400086: RightToeBase
+    400088: RightUpLeg
+    400090: Spine
+    400092: Spine1
+    400094: Spine2
+    400096: Zombie
+    400098: Zombie_Cylinder
+    400100: //RootNode
+    2100000: Texture
+    4300000: Zombie_Cylinder
+    7400000: Zombie|ZombieBite
+    7400002: Zombie|ZombieCrawl
+    7400004: Zombie|ZombieIdle
+    7400006: Zombie|ZombieRun
+    7400008: Zombie|ZombieWalk
+    9500000: //RootNode
+    13700000: Zombie_Cylinder
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.3
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
