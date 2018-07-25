@@ -24,15 +24,10 @@ This is a FREE kit made in Unity Engine (Version 2017+), to help developers crea
 * Player and Weapons Animations via Mecanim
 * Low Poly FREE 3D Models
 * Minimap
-* Levels
-* Attributes
-* Crafting
-* Building System
-* Day, night and weather system
+* Levels and Attributes
+* Day / Night system
 * Death and Respawning
 * Carefully crafted C# Code
-* ~~Mobile Support~~ (on future update)
-* ~~SQLite Database to save and load data~~ (on future update)
 * Tottaly FREE to customize
 
 ### Two TV Games ###
