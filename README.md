@@ -6,7 +6,7 @@ This is a FREE kit made in Unity Engine (Version 2017+), to help developers crea
 
 ### Informations ###
 
-* Unity Engine (Version 5+)
+* Unity Engine (Version 2017+)
 * Low Poly Environment, Characters, Items, Weapons and Enemy's.
 * Intuitive package and easy-to-customize
 * Currently working in progress and regular commits
