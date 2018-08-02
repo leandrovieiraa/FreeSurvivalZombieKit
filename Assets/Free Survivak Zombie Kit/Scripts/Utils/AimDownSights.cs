@@ -2,6 +2,8 @@
 
 public class AimDownSights : MonoBehaviour
 {
+    public PlayerController playerController;
+
     public float defaultFOV = 60.0F;
     public float aimedFOV = 45.0F;
     public float smoothFOV = 10.0F;
@@ -14,6 +16,9 @@ public class AimDownSights : MonoBehaviour
 
     void Update()
     {
+        if (playerController.inventory.activeSelf || playerController.equipment.activeSelf)
+            return;
+
         if (Input.GetMouseButton(1))
         {
             transform.localPosition = Vector3.Lerp(transform.localPosition, aimPosition, Time.deltaTime * smoothAim);

@@ -5,7 +5,10 @@ using UnityEngine;
 [RequireComponent(typeof(CharacterController))]
 public class PlayerController : MonoBehaviour
 {
+    [Header("Animation")]
     public Animator handsAnim;
+
+    [Header("Speed System")]
     public float walkSpeed = 5.0f;
     public float sneakSpeed = 2.5f;
     public float runSpeed = 8.0f;
@@ -13,7 +16,6 @@ public class PlayerController : MonoBehaviour
     public float crouchRunSpeed = 6.5f;
     public float crouchSneakSpeed = 1f;
     public float jumpSpeed = 6.0f;
-
     public bool limitDiagonalSpeed = true;
     public bool toggleRun = false;
     public bool toggleSneak = false;
@@ -26,13 +28,25 @@ public class PlayerController : MonoBehaviour
         running,
         jumping
     }
+    [Header("Motion System")]
     public motionstate currentMotion;
 
+    [Header("Gravity system")]
     public float gravity = 10.0f;
     public float fallingDamageLimit = 10.0f;
-
-    private Vector3 moveDirection;
     private bool grounded;
+
+    [Header("Input System")]
+    public KeyCode inventoryKey = new KeyCode();
+    public KeyCode equipmentKey = new KeyCode();
+
+    [Header("GameObjects")]
+    public GameObject camera;
+    public GameObject inventory;
+    public GameObject equipment;
+
+    // Private Variables
+    private Vector3 moveDirection;
     private CharacterController controller;
     private Transform myTransform;
     private float speed;
@@ -65,7 +79,7 @@ public class PlayerController : MonoBehaviour
         float inputY = Input.GetAxis("Vertical");
         float inputModifyFactor = (inputX != 0.0f && inputY != 0.0f && limitDiagonalSpeed) ? 0.6701f : 1.0f;
 
-        if(inputX == 0 && inputY == 0)
+        if (inputX == 0 && inputY == 0)
         {
             handsAnim.SetBool("idle", true);
             handsAnim.SetBool("running", false);
@@ -93,7 +107,7 @@ public class PlayerController : MonoBehaviour
                 if (running)
                 {
                     currentMotion = motionstate.running;
-                    crosshairScript.IncreaseSpread(0.5f); 
+                    crosshairScript.IncreaseSpread(0.5f);
                 }
                 else
                 {
@@ -126,14 +140,14 @@ public class PlayerController : MonoBehaviour
             moveDirection = myTransform.TransformDirection(moveDirection) * speed;
 
             if (!Input.GetButton("Jump"))
-            {             
+            {
                 //anim.SetBool("Jump", false);
             }
             else
             {
                 moveDirection.y = jumpSpeed;
                 crosshairScript.IncreaseSpread(10f);
-                currentMotion = motionstate.jumping;         
+                currentMotion = motionstate.jumping;
             }
         }
         else
@@ -158,8 +172,20 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
-            Cursor.visible =! Cursor.visible;
+        if (Input.GetKeyDown(inventoryKey))
+            inventory.active = !inventory.active;
+
+        if (Input.GetKeyDown(equipmentKey))
+            equipment.active = !equipment.active;
+
+        if (inventory.activeSelf || equipment.activeSelf)
+        {
+            DisableController();
+        }
+        else
+        {
+            EnableController();
+        }
 
         if (toggleRun && grounded && Input.GetButtonDown("Run"))
             speed = (speed == walkSpeed ? runSpeed : walkSpeed);
@@ -179,5 +205,17 @@ public class PlayerController : MonoBehaviour
     void FallingDamageAlert(float fallDistance)
     {
         print("Ouch! Fell " + fallDistance + " units!");
+    }
+
+    void EnableController()
+    {
+        camera.GetComponent<MouseLook>().enabled = true;
+        Cursor.visible = false;
+    }
+
+    void DisableController()
+    {
+        camera.GetComponent<MouseLook>().enabled = false;
+        Cursor.visible = true;
     }
 }

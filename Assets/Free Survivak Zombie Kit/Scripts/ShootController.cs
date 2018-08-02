@@ -20,6 +20,9 @@ public class ShootController : MonoBehaviour
 
     void Update()
     {
+        if (playerController.inventory.activeSelf || playerController.equipment.activeSelf)
+            return;
+
         if (playerController.currentMotion == PlayerController.motionstate.idle)
         {
             if (Input.GetButtonDown("Fire1") && Time.time > nextFire && animator.GetCurrentAnimatorStateInfo(0).normalizedTime > 1 && !animator.IsInTransition(0))
