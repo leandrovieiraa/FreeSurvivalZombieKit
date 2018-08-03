@@ -7,8 +7,6 @@ using UnityEngine;
 public class EquipmentHandler : MonoBehaviour
 {
     public GameObject defaultArms;
-    private Vector3 fixArmsPosition;
-    private Quaternion fixArmsRotation;
 
     public GameObject weaponHolder;
     public GameObject lastWeaponEquiped;

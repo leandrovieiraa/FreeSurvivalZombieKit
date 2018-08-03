@@ -173,11 +173,21 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         if (Input.GetKeyDown(inventoryKey))
+        {
             inventory.active = !inventory.active;
 
+            GameObject ghost_tooltip = GameObject.Find("Standard Tooltip(Clone)");
+            Destroy(ghost_tooltip);
+        }
+           
         if (Input.GetKeyDown(equipmentKey))
+        {
             equipment.active = !equipment.active;
 
+            GameObject ghost_tooltip = GameObject.Find("Standard Tooltip(Clone)");
+            Destroy(ghost_tooltip);
+        }
+            
         if (inventory.activeSelf || equipment.activeSelf)
         {
             DisableController();
