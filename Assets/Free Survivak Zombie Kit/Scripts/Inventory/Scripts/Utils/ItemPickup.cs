@@ -17,7 +17,7 @@ public class ItemPickup : MonoBehaviour
 
             if (Input.GetKeyDown(KeyCode.P))
             {
-                inventory = GameObject.Find("Canvas").transform.Find("Inventory").GetComponent<StandardContainer>();
+                inventory = GameObject.Find("Canvas").transform.Find("InventoryUI").GetComponent<StandardContainer>();
                 GameObject slotHolder = inventory.gameObject.transform.Find("Slots").gameObject;
                 List<GameObject> slots = new List<GameObject>();
 

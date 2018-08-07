@@ -36,7 +36,11 @@ namespace Collect.Items.Tooltips {
         /// Hide and consequently destroy this tooltip
         /// </summary>
         public void Hide() {
-            Destroy(gameObject);
+            try
+            {
+                Destroy(gameObject);
+            }
+            catch { }        
         }
     }
 }
