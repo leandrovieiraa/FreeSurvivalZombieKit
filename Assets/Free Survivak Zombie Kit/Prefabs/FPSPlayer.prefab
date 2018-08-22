@@ -203,6 +203,7 @@ GameObject:
   - component: {fileID: 23969113915574724}
   - component: {fileID: 143357607472414666}
   - component: {fileID: 114968038637577618}
+  - component: {fileID: 114795987898498804}
   m_Layer: 0
   m_Name: FPSPlayer
   m_TagString: Player
@@ -1117,7 +1118,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4238844570037728}
   - component: {fileID: 20014832277482936}
-  - component: {fileID: 81547879480344356}
   m_Layer: 0
   m_Name: MinimapCamera
   m_TagString: Untagged
@@ -1467,6 +1467,21 @@ GameObject:
   - component: {fileID: 137750200753944606}
   m_Layer: 0
   m_Name: Bras
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1776562392200886
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4864375038335172}
+  m_Layer: 0
+  m_Name: DropHolder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3618,6 +3633,19 @@ Transform:
   m_Father: {fileID: 4216955776156384}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4864375038335172
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1776562392200886}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -1.039, z: 1.8520005}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4954274337602036}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4866061902948780
 Transform:
   m_ObjectHideFlags: 1
@@ -3737,12 +3765,13 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1077687852850716}
   m_LocalRotation: {x: -0, y: 0.8451112, z: -0, w: -0.5345906}
-  m_LocalPosition: {x: 14.28, y: 1, z: 4.74}
+  m_LocalPosition: {x: 14.28, y: 1.68, z: 4.74}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4909050206596308}
   - {fileID: 4238844570037728}
   - {fileID: 4199509461722730}
+  - {fileID: 4864375038335172}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 244.63199, z: 0}
@@ -4065,13 +4094,6 @@ AudioListener:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1911598648037436}
   m_Enabled: 1
---- !u!81 &81547879480344356
-AudioListener:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1574344336178584}
-  m_Enabled: 1
 --- !u!82 &82485106217534570
 AudioSource:
   m_ObjectHideFlags: 1
@@ -4316,6 +4338,35 @@ MonoBehaviour:
   aimPosition: {x: 0, y: 0, z: 0}
   smoothAim: 0
   camera: {fileID: 20052022481031450}
+--- !u!114 &114795987898498804
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1077687852850716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 907e85b429f86544f82842f2a04bad5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
+  currentHealth: 100
+  healthImage: {fileID: 0}
+  healthTextQty: {fileID: 0}
+  fullHealthColor: {r: 1, g: 0.34117648, b: 0.34117648, a: 1}
+  emptyHealthColor: {r: 0.42352942, g: 0.047058824, b: 0, a: 1}
+  maxHunger: 100
+  currentHunger: 100
+  hungerImage: {fileID: 0}
+  hungerTextQty: {fileID: 0}
+  fullHungerColor: {r: 0.23137257, g: 0.5647059, b: 0.0627451, a: 1}
+  emptyHungerColor: {r: 0.07606132, g: 0.2264151, b: 0, a: 1}
+  maxThirst: 100
+  currentThirst: 100
+  thirstImage: {fileID: 0}
+  thirstTextQty: {fileID: 0}
+  fullThirstColor: {r: 0.34117648, g: 0.6313726, b: 1, a: 1}
+  emptyThirstColor: {r: 0.109336056, g: 0.22323811, b: 0.3679245, a: 1}
 --- !u!114 &114968038637577618
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4344,10 +4395,11 @@ MonoBehaviour:
   gravity: 20
   fallingDamageLimit: 10
   inventoryKey: 105
-  equipmentKey: 101
   camera: {fileID: 1911598648037436}
+  armsHolder: {fileID: 1745557689989424}
+  weaponHolder: {fileID: 1633646564718746}
+  dropHolder: {fileID: 1776562392200886}
   inventory: {fileID: 0}
-  equipment: {fileID: 0}
 --- !u!120 &120780282612148120
 LineRenderer:
   m_ObjectHideFlags: 1

@@ -20,7 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4035519002295136}
   - component: {fileID: 136928024784949114}
-  - component: {fileID: 114805627932921796}
+  - component: {fileID: 114431136160360042}
   m_Layer: 0
   m_Name: Beretta
   m_TagString: Untagged
@@ -170,15 +170,15 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1050210356476600}
-  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 1.9336171, y: -0.3903186, z: -8.016686}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.1, y: 0.10000006, z: 0.10000006}
   m_Children:
   - {fileID: 4738913211529220}
   - {fileID: 4508151135140620}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4051049324560318
 Transform:
   m_ObjectHideFlags: 1
@@ -303,7 +303,7 @@ Transform:
   m_Father: {fileID: 4378786121603966}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &114805627932921796
+--- !u!114 &114431136160360042
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -311,10 +311,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1050210356476600}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4167e583f38a0794190363d5f287244e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5e784b27bff157b4298b3e92f31391f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemObject: {fileID: 103036, guid: 07a1f912d6ca271418d3f58df0a87cbc, type: 2}
+  item: {fileID: 11400000, guid: bb3909452e37469478db5d588e7dfe9e, type: 2}
 --- !u!136 &136928024784949114
 CapsuleCollider:
   m_ObjectHideFlags: 1
@@ -324,7 +324,7 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 10
+  m_Radius: 12
   m_Height: 1
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}

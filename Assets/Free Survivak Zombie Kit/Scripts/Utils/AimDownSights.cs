@@ -16,7 +16,7 @@ public class AimDownSights : MonoBehaviour
 
     void Update()
     {
-        if (playerController.inventory.activeSelf || playerController.equipment.activeSelf)
+        if (playerController.inventory.activeSelf)
             return;
 
         if (Input.GetMouseButton(1))
