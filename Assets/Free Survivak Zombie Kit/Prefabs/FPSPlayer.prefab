@@ -3639,8 +3639,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1776562392200886}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -1.039, z: 1.8520005}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4954274337602036}
@@ -4292,16 +4292,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gunDamage: 5
-  fireRate: 0.25
+  fireRate: 0.1
   weaponRange: 50
   hitForce: 100
+  bulletsPerClip: 12
+  maxNumberOfClips: 5
+  numberOfClips: 0
+  bulletsLeft: 0
+  WeaponUI: {fileID: 0}
+  bulletNumberUI: {fileID: 0}
+  clipNumberUI: {fileID: 0}
   gunEnd: {fileID: 4530928360512252}
   animator: {fileID: 95260791369576316}
   FPSCamera: {fileID: 1911598648037436}
   fpsCam: {fileID: 20052022481031450}
   playerController: {fileID: 114968038637577618}
   gunAudio: {fileID: 82485106217534570}
-  laserLine: {fileID: 120780282612148120}
 --- !u!114 &114379854280095858
 MonoBehaviour:
   m_ObjectHideFlags: 1

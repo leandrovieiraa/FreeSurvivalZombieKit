@@ -100,6 +100,7 @@ public class EquipmentManager : MonoBehaviour {
             GameObject player = GameObject.FindGameObjectWithTag("Player");
             player.GetComponent<PlayerController>().weaponHolder.transform.Find(oldItem.name).gameObject.SetActive(false);
             player.GetComponent<PlayerController>().armsHolder.SetActive(true);
+
         }
 	}
 
